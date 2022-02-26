@@ -1,9 +1,0 @@
-{
-  "baseFontSize": 16,
-  "translucency": false,
-  "enabledCssSnippets": [
-    "big-math",
-    "fonts"
-  ],
-  "theme": "moonstone"
-}
