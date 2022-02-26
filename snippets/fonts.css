@@ -1,0 +1,297 @@
+div.nav-file-title {
+    padding: 2px 35px;
+}
+
+/*Title Bar*/
+
+.titlebar {
+    background-color: #f7f6f3;
+}
+
+.titlebar-inner {
+    color: #37352F;
+}
+
+/*Calendar Year Color*/
+
+.year.svelte-1vwr9dd.svelte-1vwr9dd {
+    color: #ed6a6a !important;
+}
+
+/*Calendar number*/
+.today.svelte-q3wqg9 {
+    --color-text-today: #2eaadc;
+}
+
+/*Color of the Vault Title*/
+.nav-folder.mod-root > .nav-file-title, .nav-folder.mod-root > .nav-folder-title {
+    color: #37352f;
+}
+
+/*Color of unselected notes in File Explorer*/
+.nav-file-title, .nav-folder-title {
+    color: #9e9d98;
+}
+
+
+/*Border undearneath File-explorer icons*/
+.workspace-tab-header-container {
+    border-bottom: 1.5px solid #c3c2bf;
+}
+
+/*File Explorer - right border*/
+.workspace-split.mod-horizontal > * {
+    border-right: 1.5px solid #D9D8D7;
+}
+
+.workspace-ribbon {
+    border-right: 1.5px solid #D9D8D7;
+}
+
+
+.theme-light {
+    --background-primary: #ffffff; /*Background Color*/
+    --background-secondary: #f7f6f3;
+    --background-secondary-alt: #f7f6f3;
+    --text-faint: #37342f; /*Color of icons around & line numbers*/
+    --text-normal: #37352F; /*Color of Normal text*/
+    --text-accent: #37352F; /*Color of internal links*/
+    --text-accent-hover: #ed6a6a; /*Color of text on hover*/
+    --text-selection: rgba(45, 170, 219, 0.3); /*color of text selection*/ 
+    --text-on-accent: #2eaadc;
+    --text-highlight-bg: rgba(45, 170, 219, 0.3); /*Find selection*/ 
+    --interactive-accent: #e9e9e9; /* Calendar active day background*/
+    --interactive-accent-rgb: 233, 233, 233; /* Calendar active day background*/
+    --interactive-accent-hover: #e9e9e9; /* Calendar day background*/
+}
+
+.nav-file-title, .nav-folder-title {
+    padding: 2px 14px 0 26px;
+}
+
+
+/*Keep Selected note in greyish color, and on hover change other notes background color too*/
+.nav-file-title.is-active, .nav-folder-title.is-active, body:not(.is-grabbing) .nav-file-title:hover, body:not(.is-grabbing) .nav-folder-title:hover {
+    background-color: #e8e7e4;
+    color: var(--text-normal);
+}
+
+
+/*////////////////////Title Bar color//////////////////////*/
+body.plugin-sliding-panes-rotate-header .workspace > .mod-root > .workspace-leaf > .workspace-leaf-content > .view-header {
+    background-color: #F7F6F3;
+}
+
+body.plugin-sliding-panes-rotate-header .workspace > .mod-root > .workspace-leaf > .workspace-leaf-content > .view-header > .view-header-title-container:before {
+    display: none; /*Remove gradient on the title page-TOP*/
+}
+
+body.plugin-sliding-panes-rotate-header .workspace > .mod-root > .workspace-leaf > .workspace-leaf-content > .view-header > .view-header-title-container:after {
+    display:  none; /*Remove gradient on the title page-BOT*/
+}
+
+.view-header-icon svg {
+    color: transparent;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 511 511"%3E%3Cpath d="M454.962 110.751c-.018-.185-.05-.365-.081-.545-.011-.06-.016-.122-.028-.182-.043-.215-.098-.425-.159-.632-.007-.025-.012-.052-.02-.077-.065-.213-.141-.421-.224-.625-.008-.021-.015-.043-.023-.064-.081-.195-.173-.384-.269-.57-.016-.031-.029-.063-.045-.094-.093-.173-.196-.339-.301-.504-.027-.042-.049-.086-.077-.127-.103-.154-.216-.3-.33-.446-.037-.048-.07-.098-.109-.145-.142-.173-.294-.338-.451-.498-.015-.015-.027-.031-.042-.046l-104-104c-.018-.018-.038-.033-.057-.051-.156-.153-.317-.301-.486-.44-.055-.045-.113-.083-.169-.126-.138-.107-.275-.214-.42-.311-.051-.034-.105-.062-.156-.095-.156-.099-.312-.197-.475-.284-.036-.019-.074-.035-.111-.053-.181-.093-.365-.183-.554-.262-.024-.01-.049-.017-.074-.027-.202-.081-.406-.157-.616-.221-.027-.008-.054-.013-.081-.021-.206-.06-.415-.115-.628-.158-.063-.013-.128-.018-.192-.029-.177-.031-.354-.062-.536-.08-.247-.025-.497-.038-.748-.038h-248C73.72 0 56 17.72 56 39.5v432c0 21.78 17.72 39.5 39.5 39.5h320c21.78 0 39.5-17.72 39.5-39.5v-360c0-.251-.013-.501-.038-.749zM351 25.606 429.394 104H375.5c-13.509 0-24.5-10.99-24.5-24.5V25.606zM415.5 496h-320C81.991 496 71 485.01 71 471.5v-432C71 25.99 81.991 15 95.5 15H336v64.5c0 21.78 17.72 39.5 39.5 39.5H440v352.5c0 13.51-10.991 24.5-24.5 24.5z"/%3E%3Cpath d="M391.5 248h-48.002c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5H391.5c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5zm-272 15h192.001c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5H119.5c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5zm272-111h-200c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h200c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5zm-272 15h40.003c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5H119.5c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5zm272 177h-152c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h152c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5zm-184 0h-88c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h88c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5zm184-144h-272c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h272c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5zm0 96h-272c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h272c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5z"/%3E%3C/svg%3E%0A');
+}
+
+
+/*make active pane more black*/
+.workspace-leaf.mod-active .view-header-title, .workspace-leaf.mod-active .view-action {
+    color: var(--text-normal);
+}
+
+/*Replace new note icon*/
+[aria-label="New note"] svg {
+    display: block;
+    color: transparent;
+    background: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 64 64"%3E%3Cpath d="M48.5 58.5h-33a2 2 0 0 1-2-2V51a2 2 0 1 1 4 0v3.5h29V21.55l-9.4-12H17.5v30.77a2 2 0 0 1-4 0V7.5a2 2 0 0 1 2-2h22.57a2 2 0 0 1 1.58.77l10.43 13.36a2 2 0 0 1 .42 1.23V56.5a2 2 0 0 1-2 2Z"/%3E%3Cpath d="M39.31 34H24.69a2 2 0 1 1 0-4h14.62a2 2 0 0 1 0 4Z"/%3E%3Cpath d="M32 41.31a2 2 0 0 1-2-2V24.69a2 2 0 1 1 4 0v14.62a2 2 0 0 1-2 2Z"/%3E%3C/svg%3E%0A');
+    /*transition: opacity 0.3s;*/
+    opacity: 0.5;
+}
+
+[aria-label="New note"]:hover {
+    background: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 64 64"%3E%3Cpath d="M48.5 58.5h-33a2 2 0 0 1-2-2V51a2 2 0 1 1 4 0v3.5h29V21.55l-9.4-12H17.5v30.77a2 2 0 0 1-4 0V7.5a2 2 0 0 1 2-2h22.57a2 2 0 0 1 1.58.77l10.43 13.36a2 2 0 0 1 .42 1.23V56.5a2 2 0 0 1-2 2Z"/%3E%3Cpath d="M39.31 34H24.69a2 2 0 1 1 0-4h14.62a2 2 0 0 1 0 4Z"/%3E%3Cpath d="M32 41.31a2 2 0 0 1-2-2V24.69a2 2 0 1 1 4 0v14.62a2 2 0 0 1-2 2Z"/%3E%3C/svg%3E%0A');
+    background-repeat: no-repeat;
+}
+
+
+/*Code*/
+/*Inline code - Live Preview*/
+.cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code):not(.obsidian-search-match-highlight) {
+    font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace;
+    line-height: normal;
+    background: #87837826;
+    color: #EB5757;
+    border-radius: 3px;
+    font-size: 85%;
+    padding: 0.2em 0.4em;
+    vertical-align: baseline;
+}
+
+
+/*Inline code - Reader View*/
+.markdown-preview-view code {
+    font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace;
+    line-height: normal;
+    background: #87837826;
+    color: #EB5757;
+    border-radius: 3px;
+    font-size: 85%;
+    padding: 0.2em 0.4em;
+    vertical-align: baseline;
+}
+
+
+/*Bullet list line height*/
+.ͼ1 .cm-scroller {
+    line-height: 1.5;
+}
+
+/*Bullet list arrow*/
+/*Live preview Mode*/
+.markdown-source-view.mod-cm6 .cm-fold-indicator .collapse-indicator:hover {
+    background-color: #efefef;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: -1em -1em;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    border-radius: 3px;
+}
+
+/*Adjust the spacing*/
+.collapse-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    border-radius: 3px;
+}
+
+/*.collapse-indicator:hover,
+.collapse-icon:hover,
+.cm-fold-indicator:hover {
+    background-color: #efefef !important;
+}*/
+
+/*Icon Size*/
+.collapse-icon svg {
+    width: 10px;
+    height: 10px;
+}
+
+svg.right-triangle {
+    width: 10px;
+    height: 10px;
+}
+
+/*Reading View*/
+.markdown-preview-view .collapse-indicator:hover {
+    background-color: #efefef;
+/*    background-position: center;
+    padding: 0.2em 0.4em;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;*/
+}
+
+/*On hover keep top icons active or toggle etc*/
+.workspace-tab-header-inner:hover {
+    background-color: #e8e7e4;
+}
+
+.workspace-tab-header.is-active {
+    background-color: #e8e7e4;
+}
+
+/*side ribbon hover actions*/
+.side-dock-ribbon-tab, .side-dock-ribbon-action:hover {
+    background-color: #e8e7e4;
+}
+
+.side-dock-ribbon-tab, .side-dock-ribbon-action {
+    padding: 2px 0px 2px 0px;
+}
+
+.search-result-file-matched-text {
+    background-color: var(--text-selection)
+}
+
+/*Internal link orange color in Editor Mode*/
+.cm-s-obsidian span.cm-hmd-internal-link:hover {
+    color: #ed6a6a;
+}
+
+.theme-light .token.operator, .theme-light .token.entity, .theme-light .token.url, .theme-light .language-css .token.string, .theme-light .style .token.string, .theme-light .cm-operator, .theme-light .cm-string, .theme-light .cm-string-2, .theme-light .cm-link:hover {
+    color: #ed6a6a;
+}
+
+/*Linked mention toggle button color blueish*/
+.nav-action-button.is-active {
+    background-color: #2eaadc57;
+    color: var(--text-muted);
+    padding: 3.2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Preferences Selected color = lgiht blue*/ 
+.checkbox-container.is-enabled {
+    background-color: rgba(45, 170, 219, 0.3); 
+}
+
+.checkbox-container {
+    background-color: lightgrey;
+}
+
+/*Scrollbar color*/
+::-webkit-scrollbar-thumb {
+    background: #D3D1CB;
+}
+
+::-webkit-scrollbar-track {
+    background: #EDECE9;
+}
+
+/*Buttons*/
+/*Make all buttons reddish with small border around*/
+button {
+    color: #FFFFFF;
+    background-color: #e16259 !important;
+    border: 1px solid #be5643; /*add shadow*/
+    box-shadow: 0 1px 2px rgba(15,15,15,0.1);
+}
+
+/*On hover of a button make color a little darker*/
+button:hover {
+    background-color: #cf534a !important
+}
+
+/*Fixes some buttons font*/
+button.mod-cta {
+    color: #FFFFFF; 
+}
+
+
+/*Small and translucent bottom status bar*/
+.status-bar, .is-translucent .status-bar {
+    border: 1px solid var(--background-modifier-border) !important;
+    background-color: var(--background-secondary);
+    position: absolute;
+    margin: auto;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 8px;
+    line-height: 0.1;
+    padding: 1px 1px 1px 1px;
+    color: var(--text-normal);
+    max-height: unset;
+    font-size: 12px;
+}

@@ -1,0 +1,95 @@
+{
+  "workspaces": {
+    "Workspace 1": {
+      "main": {
+        "id": "96b1a98b2440abd3",
+        "type": "split",
+        "children": [
+          {
+            "id": "88acdb795bb814bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "College Algebra/Quadratic Functions/Definition of Quadratic Functions.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "bee17c0489aa183b",
+        "type": "split",
+        "children": [
+          {
+            "id": "acafdb8dc6fcebca",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "64a413c17b824772",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "b8210d7fb2510db1",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 361
+      },
+      "right": {
+        "id": "925c9803fc549ad2",
+        "type": "split",
+        "children": [
+          {
+            "id": "7e156340cc18d97a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a03706fad384a1df",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              },
+              {
+                "id": "7dec8523af4fc821",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 633
+      },
+      "active": "88acdb795bb814bc"
+    }
+  },
+  "active": "Workspace 1"
+}
